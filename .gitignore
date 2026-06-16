@@ -1,0 +1,48 @@
+# Git Ignore for CIVE Cafeteria Project
+
+# Environment files
+.env
+.env.local
+config_local.php
+
+# IDE files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs
+*.log
+logs/
+error_log
+
+# Cache
+*.cache
+cache/
+session/
+
+# Uploads (if any)
+uploads/
+images/uploads/
+
+# Database backups
+*.sql.gz
+*.sql.zip
+backups/
+
+# Node modules (if using npm)
+node_modules/
+
+# Composer vendor (if using composer)
+vendor/
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+*.temp
